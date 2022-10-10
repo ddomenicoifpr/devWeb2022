@@ -1,0 +1,24 @@
+
+.tblEstados {
+    /*border-style: ridge;
+    border-width: 1px;*/
+    border-spacing: 0px;
+}
+
+.tblEstados th, td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.tblCentroOeste {
+    background-color: gray;
+}
+
+.tblSudeste {
+    background-color: purple;
+}
+
+.tblSul {
+    background-color: green;
+}

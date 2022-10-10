@@ -1,0 +1,36 @@
+input[type='text']:focus {
+    font-weight: bold;
+    background-color: gray;
+}
+
+option:checked {
+    color: red;
+}
+
+li::marker {
+    content: '+ ';
+    color: red;
+}
+
+#lnk1:hover {
+    font-size: 2em;
+    color: green;
+}
+
+#lnk2:hover {
+    font-size: .75em;
+    color: black;
+    text-decoration: none;
+}
+
+.pExtra::after {
+    content: 'Info extra';
+    color: red;
+}
+
+#edtNome::placeholder {
+    color: blue;
+}
+
+
+
