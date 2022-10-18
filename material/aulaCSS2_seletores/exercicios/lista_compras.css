@@ -1,0 +1,19 @@
+.comprado {
+	color: green;
+	text-decoration: line-through;
+}
+
+.falta {
+	color: red;
+}
+
+.falta:hover {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.urgente::after {
+	content: " (urgente)";
+	font-size: 0.7em;
+	font-weight: bold;
+}
