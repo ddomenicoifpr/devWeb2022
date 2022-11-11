@@ -1,0 +1,36 @@
+body {
+    font-style: italic;
+    color: rgb(80, 78, 78);
+    margin: 0;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+#cabecalho {
+    background-color: lightblue;
+    height: 70px;
+    width: 1024px;
+}
+
+#menu {
+    background-color: lightgreen;
+    height: 300px;
+    width: 300px;
+}
+
+#conteudo {
+    background-color: lightsalmon;
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    height: 300px;
+    width: 724px;
+}
+
+#rodape {
+    background-color: lightcoral;
+    height: 50px;
+    width: 1024px;
+}

@@ -1,0 +1,45 @@
+body {
+    font-style: italic;
+    color: rgb(80, 78, 78);
+    margin: 0;
+}
+
+h1, h4 {
+    margin: 0;
+}
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 70px 300px 50px;
+    grid-template-areas: "divCabecalho divCabecalho"
+                        "divMenu divConteudo"
+                        "divRodape divRodape";
+}
+
+#cabecalho {
+    background-color: lightblue;
+    grid-area: divCabecalho;
+}
+
+#menu {
+    background-color: lightgreen;
+    grid-area: divMenu;
+}
+
+#conteudo {
+    background-color: lightsalmon;
+    grid-area: divConteudo;
+}
+
+#rodape {
+    background-color: lightcoral;
+    grid-area: divRodape;
+}
+
+.imgFoz {
+    width: 50px;
+    height: auto;
+}
